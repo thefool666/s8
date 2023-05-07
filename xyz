@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-07 01:04:40
+# 创建时间：2023-05-07 15:12:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：55
+# 节点数量：98
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,424 +21,725 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸_US_美国_1_1","type":"trojan","server":"38.150.13.140","port":57063,"udp":true,"password":"Hu4CFM0wJ3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2_1","type":"vmess","server":"142.0.132.43","port":50015,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_3_1","type":"vmess","server":"142.4.104.193","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇭🇰_HK_香港","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"30ba67cf-776c-48be-8bb5-578878830228","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇸🇬_SG_新加坡_1","type":"vmess","server":"180.215.208.17","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"38.54.250.57","port":51431,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_2","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin"}
-  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"142.4.126.60","port":33392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇿_NZ_新西兰","type":"trojan","server":"tempest-us.aikun.online","port":443,"udp":true,"password":"11e247e5-136d-45f1-844a-a7f054d36bab","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_1_1","type":"trojan","server":"jp4.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"192.74.228.179","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"192.74.249.147","port":50042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_8","type":"vmess","server":"new8.huvicloud.com","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇺🇸_US_美国_9","type":"trojan","server":"us4.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_10","type":"vmess","server":"137.175.41.197","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国_1_1","type":"trojan","server":"kr1.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_11","type":"vmess","server":"45.12.144.79","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇸🇬_SG_新加坡","type":"vmess","server":"target.292228.xyz","port":80,"cipher":"auto","uuid":"b151a4da-0056-4b26-8598-ca3862963ca2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/filetransfer","headers":{"host":"ap-sg-central-2.292228.xyz"}}}
+  - {"name":"🇭🇰_HK_香港->🇳🇱_NL_荷兰_1","type":"vmess","server":"156.245.8.240","port":45020,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_1","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"30ba67cf-776c-48be-8bb5-578878830228","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"45.86.11.217","port":48823,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG_新加坡_1","type":"ss","server":"139.162.59.135","port":443,"password":"tg@herhero6","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_US_美国_15","type":"vmess","server":"198.2.204.246","port":46802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"vmess","server":"d.mamadcucu.com","port":8880,"cipher":"auto","uuid":"c1808f79-f54d-440c-dbb1-cd21a2f0ef8f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"i2.mamadcucu.com"}}}
-  - {"name":"🇰🇷_KR_韩国_2","type":"ss","server":"43.200.252.117","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_2_1","type":"ss","server":"43.207.119.219","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸_US_美国_12","type":"vmess","server":"137.175.52.17","port":33002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_3_1","type":"vmess","server":"36e5404c-1b0c-47e9-80a0-977c68d3f638.xn--9kq12xdq7a.com","port":80,"cipher":"auto","uuid":"ca099159-d67c-4918-9741-82a28c802234","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇺🇸_US_美国->🇫🇷_FR_法国","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.ilovescp.com"}}}
-  - {"name":"🇸🇬_SG_新加坡_3","type":"trojan","server":"sg4.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_1_2","type":"vmess","server":"140.99.48.42","port":56102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_14","type":"vmess","server":"45.12.144.83","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_15","type":"vmess","server":"142.4.114.25","port":55502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国_1","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇺🇸_US_美国_16","type":"ss","server":"216.52.183.242","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_17","type":"vmess","server":"198.2.205.113","port":53002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇪_IE_爱尔兰","type":"trojan","server":"ie1.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬_SG_新加坡_4","type":"ss","server":"139.162.59.135","port":443,"password":"tg@herhero6","cipher":"aes-128-gcm"}
-  - {"name":"🇺🇸_US_美国_18","type":"vmess","server":"162.159.58.85","port":443,"cipher":"auto","uuid":"2e6e9c6e-6c41-4d8f-b06e-e52b27220ff9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer07","headers":{"host":"yusa.vtcss.top"}}}
-  - {"name":"🇺🇸_US_美国_2_2","type":"vmess","server":"172.247.148.82","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_20","type":"vmess","server":"172.67.147.152","port":443,"cipher":"auto","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cutino","headers":{"host":"chat.samrg.buzz"}}}
-  - {"name":"🇨🇳_CN_中国_2","type":"trojan","server":"43.198.102.15","port":443,"udp":true,"password":"b1160819-5415-4bf5-8eca-37754a1cccd1","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"scaleway.696960.xyz","port":443,"cipher":"auto","uuid":"e357cd63-f1a5-4c8e-c42e-26da11207fee","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇫🇷_FR_法国","type":"trojan","server":"fr1.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国_3","type":"trojan","server":"hk9.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_21","type":"vmess","server":"198.2.204.246","port":46802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_3_2","type":"trojan","server":"jp6.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_22","type":"vmess","server":"107.148.194.233","port":55504,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_23","type":"vmess","server":"45.86.11.189","port":59442,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_24","type":"vmess","server":"192.74.243.45","port":49206,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_25","type":"ss","server":"54.189.189.17","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵_JP_日本_5","type":"trojan","server":"jp7.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国_1_2","type":"ss","server":"13.124.43.2","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇦_CA_加拿大","type":"trojan","server":"ca1.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_26","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧_GB_英国","type":"trojan","server":"gb1.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_1_2","type":"vmess","server":"vjp1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇸🇬_SG_新加坡","type":"trojan","server":"sg3.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","type":"vmess","server":"120.232.179.161","port":63088,"cipher":"auto","uuid":"311f3c4b-90a1-3c5c-a4fe-215cc7c90d02","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"tw-load-balancer.myn1des.com"}}}
-  - {"name":"🇺🇸_US_美国_3_2","type":"vmess","server":"38.40.219.182","port":53362,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本_2_2","type":"trojan","server":"jp8.microsoft-orgwly.vip","port":443,"udp":true,"password":"284ef0f4-17b4-4a1a-acd1-755df10b0280","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦_CA_加拿大->🇺🇸_US_美国","type":"vmess","server":"23.227.38.99","port":443,"cipher":"auto","uuid":"86d37526-5758-4cec-862f-df404b313086","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/3G6WPDL7","headers":{"host":"1.freek1.xyz"}}}
+  - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"143.42.99.183","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"🇯🇵_JP_日本_1","type":"trojan","server":"awsjp9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_-🇺🇸US_92 |17.67Mb","type":"vmess","server":"192.74.228.177","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_-🇺🇸US_112 |27.17Mb","type":"vmess","server":"198.2.203.58","port":44502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_-🇺🇸US_116 |27.80Mb","type":"vmess","server":"137.175.18.107","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_16","type":"vmess","server":"140.99.59.254","port":55512,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_317 |30.99Mb","type":"vmess","server":"45.12.144.83","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_9","type":"vmess","server":"140.99.149.45","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_343 |26.22Mb","type":"vmess","server":"142.4.126.75","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Pool_🇺🇸US_346 |31.12Mb","type":"vmess","server":"198.2.208.184","port":35402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_392 |30.23Mb","type":"vmess","server":"192.74.231.172","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_426 |34.01Mb","type":"vmess","server":"198.2.205.113","port":53002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb","type":"vmess","server":"hd.mamadcucu.com","port":2052,"cipher":"auto","uuid":"8ed9aec2-e02e-4a27-fe02-c3e20452e4c7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h4.mamadcucu.com"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_436 |31.45Mb","type":"vmess","server":"192.74.231.174","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_442 |25.04Mb","type":"vmess","server":"172.247.67.22","port":42940,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","type":"ss","server":"gtm-sg-6wr31eq5o8g.gtm-i1d8.com","port":2051,"password":"Kad0X9","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_US_美国_21","type":"vmess","server":"visa.com","port":80,"cipher":"auto","uuid":"373f2d71-79ca-47a4-974f-79b2590e8c60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
+  - {"name":"美国 CloudFlare节点_3_2","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
+  - {"name":"美国 V2CROSS.COM_1","type":"vmess","server":"137.175.1.7","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"欧盟 V2CROSS.COM","type":"vmess","server":"45.12.144.82","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 V2CROSS.COM_2","type":"vmess","server":"192.203.230.86","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
+  - {"name":"🇺🇸_US_美国_8","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp1.yxjnode.com"}}}
+  - {"name":"美国 CloudFlare节点_4","type":"vmess","server":"108.162.193.69","port":443,"cipher":"auto","uuid":"e883ff76-3bb4-4008-c068-6b5b1d960ea7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer07","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"美国弗吉尼亚州阿什本 CloudFlare节点","type":"vmess","server":"173.245.49.40","port":443,"cipher":"auto","uuid":"e883ff76-3bb4-4008-c068-6b5b1d960ea7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer07","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"🇺🇸_US_美国_26","type":"vmess","server":"new6.huvicloud.com","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"日本 V2CROSS.COM","type":"vmess","server":"jp2.ulifeai.com","port":443,"cipher":"auto","uuid":"168b4363-92b4-4994-a4e8-9e4f5015b48c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/52566/"}}
+  - {"name":"🇭🇰_HK_香港->🇳🇱_NL_荷兰_2","type":"vmess","server":"156.245.8.93","port":48821,"cipher":"auto","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"俄罗斯 V2CROSS.COM","type":"vmess","server":"91.107.128.131","port":8081,"cipher":"auto","uuid":"802a3712-4e38-49f9-c99e-e193fa5e039a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@hashmakvpn 🇩🇪","headers":{"host":"digikala.com"}}}
+  - {"name":"🇺🇸_US_美国_10","type":"vmess","server":"140.99.149.46","port":53082,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国加利福尼亚州洛杉矶 PetaExpress","type":"vmess","server":"198.2.208.188","port":35402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 V2CROSS.COM_3","type":"vmess","server":"137.175.18.90","port":42002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 加利福尼亚州圣何塞PEG TECH","type":"vmess","server":"142.4.126.77","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 Merit网络公司","type":"vmess","server":"ssv3-iddoctor.cloud.okteto.net","port":443,"cipher":"auto","uuid":"4b6499a4-a112-43db-8e6c-704b982f0c83","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ssv3-iddoctor.cloud.okteto.net"}}}
+  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"140.99.48.42","port":56102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 Datability_3","type":"vmess","server":"140.99.48.26","port":57102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 加利福尼亚州洛杉矶市SharkTech数据中心","type":"vmess","server":"107.167.16.87","port":45689,"cipher":"auto","uuid":"7640a1e7-9701-428e-a4b2-19b3e7dd6f9f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 加利福尼亚州洛杉矶Sharktech数据中心","type":"vmess","server":"67.21.95.69","port":53214,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 V2CROSS.COM_4","type":"vmess","server":"fr1.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online","port":80,"cipher":"auto","uuid":"2da0d552-b9f4-4802-b4d8-d20be2d1a590","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aws-china-media/QAcTKp3Ic-M.mp4","headers":{"host":"fr-media.ispeed.online"}}}
+  - {"name":"美国 V2CROSS.COM_5","type":"vmess","server":"de2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online","port":80,"cipher":"auto","uuid":"2da0d552-b9f4-4802-b4d8-d20be2d1a590","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aws-china-media/QAcTKp3Ic-M.mp4","headers":{"host":"de-media.ispeed.online"}}}
+  - {"name":"美国 加利福尼亚州费里蒙Linode数据中心","type":"vmess","server":"vus2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus2.0bad.com"}}}
+  - {"name":"github.com/freefq - 美国  12","type":"vmess","server":"gb1.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online","port":80,"cipher":"auto","uuid":"2da0d552-b9f4-4802-b4d8-d20be2d1a590","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aws-china-media/QAcTKp3Ic-M.mp4","headers":{"host":"gb-media.ispeed.online"}}}
+  - {"name":"日本B|tg频道:@ripaojiedian","type":"vmess","server":"8.v2-ray.cyou","port":23608,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"github.com/freefq - 美国CloudFlare公司CDN节点 14","type":"vmess","server":"104.26.1.71","port":2095,"cipher":"auto","uuid":"19350d64-6868-4a64-e501-9c0df903d788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h3.mamadcucu.com"}}}
+  - {"name":"github.com/freefq - 加拿大  24","type":"vmess","server":"199.212.90.14","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"🇺🇸_US_美国 (21)","type":"vmess","server":"38.40.219.182","port":53362,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"vmess","server":"120.240.42.98","port":23608,"cipher":"auto","uuid":"0dd19d20-ec86-3680-b256-87237bafa89e","alterId":2,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷_FR_法国->🇬🇧_GB_英国","type":"vmess","server":"51.195.35.150","port":30812,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_14_1","type":"vmess","server":"142.4.126.60","port":33392,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 CloudFlare节点_5_2","type":"vmess","server":"hd.mamadcucu.com","port":2095,"cipher":"auto","uuid":"19350d64-6868-4a64-e501-9c0df903d788","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h3.mamadcucu.com"}}}
+  - {"name":"🇺🇸_US_美国_19_1","type":"vmess","server":"new8.huvicloud.com","port":443,"cipher":"auto","uuid":"a11ca760-9ef9-4a63-95c9-4c5c32d56251","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"新加坡|@ripaojiedian","type":"ss","server":"wj-sg-02.wujie.bio","port":9306,"password":"2f1831cc-4c25-4adc-b340-e3e5de09a7d3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_5","type":"vmess","server":"107.148.242.216","port":54082,"cipher":"auto","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"38.63.17.166","port":50702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"170.187.200.114","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_1","type":"trojan","server":"46.29.165.54","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇭🇰_HK_香港_2","type":"trojan","server":"217.145.236.142","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_11","type":"ss","server":"35.161.78.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_JP_日本_2","type":"trojan","server":"awsjp8-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_12","type":"vmess","server":"137.175.41.196","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_13","type":"vmess","server":"171.22.134.28","port":53433,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_14_2","type":"vmess","server":"192.74.228.173","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱_NL_荷兰","type":"vmess","server":"158.101.208.7","port":80,"cipher":"auto","uuid":"1f1f6fc6-cadf-49d4-b3f1-7aaf1f3ea6d3","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇯🇵_JP_日本_3","type":"trojan","server":"awsjp10-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG_新加坡_2","type":"trojan","server":"awssg7-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","type":"vmess","server":"pro01.my1188.org","port":3043,"cipher":"auto","uuid":"69d7282c-c1f7-3af8-896c-9232c9d098cb","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国_17","type":"vmess","server":"140.99.49.46","port":40065,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国","type":"vmess","server":"59.36.84.180","port":63092,"cipher":"auto","uuid":"311f3c4b-90a1-3c5c-a4fe-215cc7c90d02","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_1","type":"vmess","server":"156.225.67.231","port":53231,"cipher":"auto","uuid":"515bcb4d-0ba1-4cae-87cf-a047007eec54","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵_JP_日本_4","type":"ss","server":"43.206.239.7","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_18","type":"vmess","server":"192.74.237.49","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇺🇸_US_美国_19_2","type":"vmess","server":"198.2.204.250","port":46802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇪_KE_肯尼亚","type":"ss","server":"62.12.116.66","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_20","type":"vmess","server":"137.175.3.233","port":53042,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_22","type":"vmess","server":"23.224.15.180","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"name":"🇭🇰_HK_香港_3","type":"trojan","server":"217.145.236.104","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_23","type":"vmess","server":"142.4.127.11","port":53013,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺_RU_俄罗斯联邦_2","type":"trojan","server":"194.87.68.254","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬_SG_新加坡_3","type":"ss","server":"13.213.34.54","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_24","type":"vmess","server":"142.4.104.195","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_25","type":"vmess","server":"142.4.126.72","port":31002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_2","type":"vmess","server":"156.225.67.117","port":44478,"cipher":"auto","uuid":"84d1de11-ce12-4a15-8312-1338356d4ac4","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_4","type":"vmess","server":"hk2.c2bfe79372be.sanfen004.me","port":443,"cipher":"auto","uuid":"30ba67cf-776c-48be-8bb5-578878830228","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇰🇷_KR_韩国","type":"ss","server":"43.200.245.62","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_27","type":"vmess","server":"137.175.15.195","port":43487,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国_28","type":"ss","server":"216.52.183.242","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸_US_美国_29","type":"vmess","server":"192.74.243.53","port":49206,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_5","type":"trojan","server":"217.145.236.25","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_3","type":"vmess","server":"156.225.67.103","port":49188,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰_HK_香港_6","type":"trojan","server":"217.145.236.23","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -461,61 +762,104 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1_1
-      - 🇺🇸_US_美国_2_1
-      - 🇺🇸_US_美国_3_1
-      - 🇭🇰_HK_香港
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_1
+      - 🇭🇰_HK_香港_1
+      - 🇺🇸_US_美国_1
       - 🇸🇬_SG_新加坡_1
+      - 🇺🇸_US_美国_15
+      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
+      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇯🇵_JP_日本_1
+      - Relay_-🇺🇸US_92 |17.67Mb
+      - Relay_-🇺🇸US_112 |27.17Mb
+      - Relay_-🇺🇸US_116 |27.80Mb
+      - 🇺🇸_US_美国_16
+      - Relay_🇺🇸US-🇺🇸US_317 |30.99Mb
+      - 🇺🇸_US_美国_9
+      - Relay_🇺🇸US-🇺🇸US_343 |26.22Mb
+      - Pool_🇺🇸US_346 |31.12Mb
+      - Relay_🇺🇸US-🇺🇸US_392 |30.23Mb
+      - Relay_🇺🇸US-🇺🇸US_426 |34.01Mb
+      - Relay_🇺🇸US-🇮🇷IR_432 |417.30Mb
+      - Relay_🇺🇸US-🇺🇸US_436 |31.45Mb
+      - Relay_🇺🇸US-🇺🇸US_442 |25.04Mb
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
+      - 🇺🇸_US_美国_21
+      - 美国 CloudFlare节点_3_2
+      - 美国 V2CROSS.COM_1
+      - 欧盟 V2CROSS.COM
+      - 美国 V2CROSS.COM_2
+      - 🇺🇸_US_美国_8
+      - 美国 CloudFlare节点_4
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 🇺🇸_US_美国_26
+      - 日本 V2CROSS.COM
+      - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_2
+      - 俄罗斯 V2CROSS.COM
+      - 🇺🇸_US_美国_10
+      - 美国加利福尼亚州洛杉矶 PetaExpress
+      - 美国 V2CROSS.COM_3
+      - 美国 加利福尼亚州圣何塞PEG TECH
+      - 美国 Merit网络公司
       - 🇺🇸_US_美国_4
-      - 🇸🇬_SG_新加坡_2
+      - 美国 Datability_3
+      - 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 美国 V2CROSS.COM_4
+      - 美国 V2CROSS.COM_5
+      - 美国 加利福尼亚州费里蒙Linode数据中心
+      - github.com/freefq - 美国  12
+      - 日本B|tg频道:@ripaojiedian
+      - github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - github.com/freefq - 加拿大  24
+      - 🇺🇸_US_美国 (21)
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
+      - 🇫🇷_FR_法国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_14_1
+      - 美国 CloudFlare节点_5_2
+      - 🇺🇸_US_美国_19_1
+      - 新加坡|@ripaojiedian
       - 🇺🇸_US_美国_5
-      - 🇳🇿_NZ_新西兰
-      - 🇯🇵_JP_日本_1_1
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇰🇷_KR_韩国_1_1
+      - 🇷🇺_RU_俄罗斯联邦_1
+      - 🇨🇳_CN_中国
+      - 🇭🇰_HK_香港_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国->🇮🇷_IR_伊朗
-      - 🇰🇷_KR_韩国_2
-      - 🇯🇵_JP_日本_2_1
+      - 🇯🇵_JP_日本_2
       - 🇺🇸_US_美国_12
-      - 🇯🇵_JP_日本_3_1
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇸🇬_SG_新加坡_3
-      - 🇺🇸_US_美国_1_2
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_13
+      - 🇺🇸_US_美国_14_2
+      - 🇳🇱_NL_荷兰
+      - 🇯🇵_JP_日本_3
+      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
       - 🇺🇸_US_美国_17
-      - 🇮🇪_IE_爱尔兰
-      - 🇸🇬_SG_新加坡_4
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+      - 🇯🇵_JP_日本_4
       - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_2_2
+      - 🇺🇸_US_美国_19_2
+      - 🇰🇪_KE_肯尼亚
       - 🇺🇸_US_美国_20
-      - 🇨🇳_CN_中国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇫🇷_FR_法国
-      - 🇨🇳_CN_中国_3
-      - 🇺🇸_US_美国_21
-      - 🇯🇵_JP_日本_3_2
       - 🇺🇸_US_美国_22
+      - 🇭🇰_HK_香港_3
       - 🇺🇸_US_美国_23
+      - 🇷🇺_RU_俄罗斯联邦_2
+      - 🇸🇬_SG_新加坡_3
       - 🇺🇸_US_美国_24
       - 🇺🇸_US_美国_25
-      - 🇯🇵_JP_日本_5
-      - 🇰🇷_KR_韩国_1_2
-      - 🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_26
-      - 🇬🇧_GB_英国
-      - 🇯🇵_JP_日本_1_2
-      - 🇸🇬_SG_新加坡
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸_US_美国_3_2
-      - 🇯🇵_JP_日本_2_2
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_2
+      - 🇭🇰_HK_香港_4
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇭🇰_HK_香港_5
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_3
+      - 🇭🇰_HK_香港_6
 
 rules:
 # 本地/局域网地址
@@ -3337,4 +3681,812 @@ rules:
   - DOMAIN-SUFFIX,dhrest.com,🎯 全球直连
   - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
   - DOMAIN-SUFFIX,qhstatic.com,🎯 全球直连
-  - DOMAIN-SUFFIX,q
+  - DOMAIN-SUFFIX,qhupdate.com,🎯 全球直连
+  - DOMAIN-SUFFIX,so.com,🎯 全球直连
+  - DOMAIN-SUFFIX,4399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,4399pk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,5054399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,img4399.com,🎯 全球直连
+  - DOMAIN-SUFFIX,58.com,🎯 全球直连
+  - DOMAIN-SUFFIX,1688.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
+  - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alipay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alipayobjects.com,🎯 全球直连
+  - DOMAIN-SUFFIX,alisoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+  - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,soku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,ucweb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidustatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bcebos.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdurl.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hao123.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hao123img.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jomodns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+  - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+  - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaohao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaohao.net,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
+  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,epicgames.dev,🎯 全球直连
+  - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
+  - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
+  - DOMAIN-SUFFIX,71.am,🎯 全球直连
+  - DOMAIN-SUFFIX,71edge.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ppsimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiyi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiyipic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qy.net,🎯 全球直连
+  - DOMAIN-SUFFIX,360buy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jcloudcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,jdcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paipai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iciba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kuaishou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yximgs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,le.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lecloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvlive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letvstore.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hunantv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomicp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.net,🎯 全球直连
+  - DOMAIN-SUFFIX,127.net,🎯 全球直连
+  - DOMAIN-SUFFIX,163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,netease.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,youdao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pplive.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pptv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pinduoduo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leju.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.com.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaapp.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sinaimg.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibocdn.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohuno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohurdc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,v-56.com,🎯 全球直连
+  - DOMAIN-SUFFIX,playstation.com,🎯 全球直连
+  - DOMAIN-SUFFIX,playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+  - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+  - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+  - DOMAIN,wmsjsteam.com,🎯 全球直连
+  - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+  - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qq.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qqurl.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,soso.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencentmind.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weixin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,appsimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,appvipshop.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,vipstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,00cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,88cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kanimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kankan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,p2cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sandai.net,🎯 全球直连
+  - DOMAIN-SUFFIX,thundercdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xunlei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,got001.com,🎯 全球直连
+  - DOMAIN-SUFFIX,p4pfile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,rrys.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,rrys2020.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yyets.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
+  - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz001.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz002.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz003.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz004.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+  - DOMAIN-KEYWORD,announce,🎯 全球直连
+  - DOMAIN-KEYWORD,torrent,🎯 全球直连
+  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+  - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
+  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
+  - IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
+  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
+  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
+  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
+  - DOMAIN-SUFFIX,115.com,🎯 全球直连
+  - DOMAIN-SUFFIX,12306.com,🎯 全球直连
+  - DOMAIN-SUFFIX,17173.com,🎯 全球直连
+  - DOMAIN-SUFFIX,178.com,🎯 全球直连
+  - DOMAIN-SUFFIX,17k.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360doc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,36kr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,3dmgame.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51cto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51job.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51jobcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,56.com,🎯 全球直连
+  - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,abercrombie.com,🎯 全球直连
+  - DOMAIN-SUFFIX,acfun.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
+  - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+  - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
+  - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+  - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+  - DOMAIN-SUFFIX,che168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinacache.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaz.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
+  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
+  - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
+  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coolapkmarket.com,🎯 全球直连
+  - DOMAIN-SUFFIX,csdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dangdang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dilidili.wang,🎯 全球直连
+  - DOMAIN-SUFFIX,douban.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,duowan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
+  - DOMAIN-SUFFIX,easou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
+  - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,feng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fir.im,🎯 全球直连
+  - DOMAIN-SUFFIX,frdic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fresh-ideas.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,ganji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ganjistatic1.com,🎯 全球直连
+  - DOMAIN-SUFFIX,geetest.com,🎯 全球直连
+  - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
+  - DOMAIN-SUFFIX,godic.net,🎯 全球直连
+  - DOMAIN-SUFFIX,guazi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gwdang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gzlzfm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,haibian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,haosou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hollisterco.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huajiao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hupu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ifeng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ifengimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,images-amazon.com,🎯 全球直连
+  - DOMAIN-SUFFIX,infzm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
+  - DOMAIN-SUFFIX,it168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ixdzs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshuapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jiathis.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jmstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jumei.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
+  - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
+  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
+  - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meilishuo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
+  - DOMAIN-SUFFIX,meizu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,migucloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miguvideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mogujie.com,🎯 全球直连
+  - DOMAIN-SUFFIX,moji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,moke.com,🎯 全球直连
+  - DOMAIN-SUFFIX,msstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myunlu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
+  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
+  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
+  - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qcloudcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qdmm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qianqian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qihucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qin.io,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiniudn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qiushibaike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,segmentfault.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
+  - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
+  - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
+  - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
+  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+  - DOMAIN-SUFFIX,synology.com,🎯 全球直连
+  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
+  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianqistatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianyaui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tietuku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tiexue.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tmiaoo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,trip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ttmeiju.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tudou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tuniu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tuniucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,umengcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
+  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiphone.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weiphone.net,🎯 全球直连
+  - DOMAIN-SUFFIX,womai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wscdns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xdrig.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xhscdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaohongshu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaojukeji.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xip.io,🎯 全球直连
+  - DOMAIN-SUFFIX,xitek.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiumi.us,🎯 全球直连
+  - DOMAIN-SUFFIX,xslb.net,🎯 全球直连
+  - DOMAIN-SUFFIX,xueqiu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yach.me,🎯 全球直连
+  - DOMAIN-SUFFIX,yeepay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yhd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yihaodianimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yinxiang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yinyuetai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yixia.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ys168.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yuewen.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yystatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zealer.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,zhanqi.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+# 中国云服务商ip端
+# 阿里
+# 腾讯 qq
+# 百度 Baidu
+# 华为 huwei
+# 网易 NetEase
+# 360
+  - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,41.222.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,41.223.119.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,43.242.168.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.252.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,72.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,103.38.56.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.95.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,161.117.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,170.33.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.96.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,19.28.0.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.116.50.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.231.60.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,120.88.56.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,129.211.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,162.62.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,170.106.130.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,210.4.138.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.128.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.132.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,211.152.148.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,45.113.192.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,63.217.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,104.193.88.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.63.192.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,180.76.0.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,185.10.104.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,78.101.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,78.101.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,81.52.161.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,85.97.220.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.69.140.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.96.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.136.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.141.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.142.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.243.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.244.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,121.37.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,122.112.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.100.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.224.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.240.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.9.248.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.128.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.160.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.164.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,139.159.192.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.64.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.80.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.192.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.223.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.224.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,168.195.92.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,185.176.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.0.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,59.111.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.120.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.128.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.71.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.12.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.18.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.24.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.28.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.38.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.40.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.44.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.48.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,103.196.64.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,106.2.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,114.113.200.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,115.236.112.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,115.238.76.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
