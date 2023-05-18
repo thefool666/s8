@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-05-16 23:53:15
+# 创建时间：2023-05-18 12:13:43
 # 使用模版：V2RaySE 默认模版
-# 节点数量：68
+# 节点数量：92
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,515 +22,683 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"vmess","server":"m.lwvzmdu.cn","port":16617,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇺🇸_US_美国_1","type":"vless","server":"op.manluqiusuo.top","port":443,"uuid":"30d2a3e5-41fc-4677-a91b-1b0bd223a4fe","tls":true,"servername":"op.manluqiusuo.top","network":"ws","ws-opts":{"path":"/duzhichao1996"}}
-  - {"name":"🇸🇬_SG_新加坡","type":"trojan","server":"0309tw.ljydw.top","port":443,"udp":true,"password":"47223646-5f48-44d1-ac75-d3dd317535b4","sni":"0309tw.ljydw.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"167.160.91.118","port":40044,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
-  - {"name":"🇺🇸_US_美国_3","type":"vless","server":"first.baoshi750105.top","port":443,"uuid":"d65eb109-efe6-4941-b726-674fe55f22ae","tls":true,"servername":"first.baoshi750105.top","network":"ws","ws-opts":{"path":"/caoyu1932"}}
-  - {"name":"🇸🇬_SG_新加坡->🇬🇧_GB_英国","type":"trojan","server":"uk.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"uk.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"104.21.30.82","port":2096,"cipher":"auto","uuid":"408e2686-9e0d-4014-841e-7ca5da55a215","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"ho3ino","headers":{"host":"h.h3io.co"}}}
-  - {"name":"🇯🇵_JP_日本->🇦🇷_AR_阿根廷","type":"trojan","server":"ar.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"ar.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国","type":"trojan","server":"hinet.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港->🇲🇾_MY_马来西亚","type":"trojan","server":"my.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"my.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国->🇯🇵_JP_日本","type":"trojan","server":"jp.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"jp.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国","type":"vmess","server":"m.lwvzmdu.cn","port":16648,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇯🇵_JP_日本->🇹🇷_TR_土耳其","type":"trojan","server":"tr.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"tr.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_5","type":"trojan","server":"163.123.192.61","port":443,"udp":true,"password":"b3359b2b-cb0f-44cd-a152-a796d8b46b01","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港->🇨🇭_CH_瑞士","type":"trojan","server":"ch.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"ch.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点_1","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
-  - {"name":"美国 CloudFlare节点_2","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
-  - {"name":"美国 CloudFlare节点_3","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
-  - {"name":"中国 阿里云","type":"vmess","server":"cdncf.scyu.app","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
-  - {"name":"美国 CloudFlare节点_4","type":"vmess","server":"162.159.62.3","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"加拿大 V2CROSS.COM","type":"vmess","server":"199.212.90.14","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"美国 RF Engineering","type":"vmess","server":"141.193.213.31","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"美国 加利福尼亚州圣何塞PEG TECH数据中心","type":"vmess","server":"192.74.234.84","port":51302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点_5","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"美国 CloudFlare节点_6","type":"vmess","server":"172.67.156.138","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
-  - {"name":"美国 CloudFlare节点_7","type":"vmess","server":"172.64.163.100","port":443,"cipher":"auto","uuid":"572c716a-e532-4567-b698-6a513c12d460","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2raydns","headers":{"host":"usdns.mainssh.xyz"}}}
-  - {"name":"美国 CloudFlare节点_8","type":"vmess","server":"HK01.ANRUN-IX.TOP","port":443,"cipher":"auto","uuid":"2c2aeac9-ba73-42f9-92a8-489c6d78ead1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"HK01.ANRUN-IX.TOP"}}}
-  - {"name":"美国+Microsoft数据中心_1","type":"trojan","server":"hinet.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国+加利福尼亚州洛杉矶Level3通信(DIA)_1","type":"trojan","server":"pt.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本+V2CROSS.COM_1","type":"trojan","server":"br.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国+加利福尼亚州洛杉矶Level3通信(DIA)_2","type":"trojan","server":"ar.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本+V2CROSS.COM_2","type":"trojan","server":"tr.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国+Microsoft数据中心_2","type":"trojan","server":"usla.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国+Microsoft数据中心_3","type":"trojan","server":"my.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰_HK_香港->🇻🇳_VN_越南","type":"trojan","server":"vn.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_6","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
-  - {"name":"美国 CloudFlare节点_9","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
-  - {"name":"日本 东京Amazon数据中心_1","type":"vmess","server":"jp04-vm0.entry.srthdw.art","port":448,"cipher":"auto","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
-  - {"name":"美国 CloudFlare节点_10","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
-  - {"name":"美国 CloudFlare节点_11","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"香港高速|@ripaojiedian","type":"vmess","server":"hk4.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"004d5ee6-381f-4e2f-960f-1eea33c7cff4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"香港HK|@ripaojiedian","type":"trojan","server":"awshk9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"4062b33c-be7a-4b69-94f5-4c738a4def8f","sni":"data.amazonwebservicess.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港1|@ripaojiedian","type":"trojan","server":"awshk8-data.amazon-azure.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港普通|@ripaojiedian","type":"trojan","server":"awshk15-data.amazon-azure.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|tg频道:@ripaojiedian","type":"vmess","server":"yes.iamagoodman.net","port":16617,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"新加坡|tg频道:@ripaojiedian","type":"vmess","server":"dx.tbstbs1688.com","port":18829,"cipher":"auto","uuid":"b18c1d76-c13f-303a-9bd1-58725fc6db38","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"美国|tg频道:@ripaojiedian","type":"vmess","server":"198.2.205.75","port":30406,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港M|tg频道:@ripaojiedian","type":"vmess","server":"hk80-2.6d83777c049a.sanfen004.me","port":80,"cipher":"auto","uuid":"004d5ee6-381f-4e2f-960f-1eea33c7cff4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
-  - {"name":"🇸🇬_SG_新加坡->🇺🇸_US_美国","type":"trojan","server":"usla.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本->🇮🇱_IL_以色列","type":"trojan","server":"il.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"il.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨","type":"trojan","server":"kh.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵_JP_日本->🇺🇦_UA_乌克兰","type":"trojan","server":"ua.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"ua.mjt001.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_8","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
-  - {"name":"🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡","type":"trojan","server":"br.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点_12","type":"vmess","server":"zslbs.vtcss.top","port":80,"cipher":"auto","uuid":"c5c9844d-050e-44f1-cb6d-ec5166772631","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer"}}
-  - {"name":"美国加利福尼亚州圣何塞 Cloudflare节点_1","type":"vmess","server":"103.21.244.197","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"美国加利福尼亚州圣何塞 Cloudflare节点_2","type":"vmess","server":"103.21.244.71","port":443,"cipher":"auto","uuid":"39304f36-8a9c-4692-9b31-d2997532f567","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"zslbs.vtcss.top"}}}
-  - {"name":"美国 CloudFlare节点_13","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp1.yxjnode.com"}}}
-  - {"name":"美国 CloudFlare节点_14","type":"vmess","server":"172.67.94.59","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"日本 东京Amazon数据中心_2","type":"vmess","server":"jp06-vm0.entry.jpojpoh.art","port":28787,"cipher":"auto","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":1,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 CloudFlare节点_15","type":"vmess","server":"tou.vtcss.top","port":443,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"中国-8.10MB/s(Youtube:不良林)","type":"vmess","server":"m.lwvzmdu.cn","port":16648,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"m.lwvzmdu.cn"}}}
-  - {"name":"美国-5.36MB/s(Youtube:不良林)","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"in.sharecentrepro.com"}}}
-  - {"name":"新加坡-8.16MB/s(Youtube:不良林)","type":"trojan","server":"kr.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港-2.39MB/s(Youtube:不良林)","type":"trojan","server":"kz.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国-323.1KB/s(Youtube:不良林)","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}}}
+  - {"name":"1","type":"ss","server":"167.88.63.79","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"2","type":"trojan","server":"hk5.cnamazon.sbs","port":443,"udp":true,"password":"bc2a1eb1-a706-4ee5-95a6-732a6c324142","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"3","type":"trojan","server":"stw3-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"4","type":"vmess","server":"142.4.112.17","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"5","type":"vmess","server":"185.40.86.195","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"none"}
+  - {"name":"6","type":"vmess","server":"120.240.163.119","port":48465,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"7","type":"ss","server":"13.113.7.165","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"8","type":"vmess","server":"107.167.12.26","port":41702,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"9","type":"trojan","server":"148.59.74.143","port":443,"udp":true,"password":"3e49b072-4746-4e46-a256-233c3c7b52bf","sni":"20-24-33-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"10","type":"vmess","server":"zslbs.vtcss.top","port":80,"cipher":"auto","uuid":"c5c9844d-050e-44f1-cb6d-ec5166772631","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"zslbs.vtcss.top"}}}
+  - {"name":"11","type":"vmess","server":"83.142.225.20","port":49920,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"none"}
+  - {"name":"12","type":"vmess","server":"104.24.16.109","port":80,"cipher":"auto","uuid":"c5c9844d-050e-44f1-cb6d-ec5166772631","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"zslbs.vtcss.top"}}}
+  - {"name":"13","type":"vmess","server":"38.40.158.252","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"14","type":"vmess","server":"cu.wfitech.net","port":443,"cipher":"auto","uuid":"030ae75a-1a4a-45cc-88f1-f1b7d9fe15f3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"15","type":"vmess","server":"hendostan.foriran.nl","port":443,"cipher":"auto","uuid":"8357816b-68e4-4a2b-830c-e9bdd369ea22","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7ouWwj1jH2IbuOfQj2chg","headers":{"host":"hendostan.foriran.nl"}}}
+  - {"name":"16","type":"vless","server":"op.manluqiusuo.top","port":443,"uuid":"30d2a3e5-41fc-4677-a91b-1b0bd223a4fe","tls":true,"servername":"op.manluqiusuo.top","network":"ws","ws-opts":{"path":"/duzhichao1996"}}
+  - {"name":"17","type":"ss","server":"213.183.63.69","port":9061,"password":"4R3hUfZ2FHhDmNcP","cipher":"aes-256-cfb"}
+  - {"name":"18","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm"}
+  - {"name":"19","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp3.yxjnode.com"}}}
+  - {"name":"20","type":"vmess","server":"108.186.192.226","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"21","type":"vmess","server":"188.114.97.3","port":443,"cipher":"auto","uuid":"8357816b-68e4-4a2b-830c-e9bdd369ea22","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7ouWwj1jH2IbuOfQj2chg","headers":{"host":"hendostan.foriran.nl"}}}
+  - {"name":"22","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"23","type":"vmess","server":"45.136.235.10","port":41632,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"24","type":"vmess","server":"95.179.171.203","port":443,"cipher":"auto","uuid":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/nimvws","headers":{"host":"phosphorylative.aurorainiceland.com"}}}
+  - {"name":"25","type":"ss","server":"167.88.63.79","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"26","type":"ss","server":"167.88.63.79","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"27","type":"vmess","server":"142.0.133.39","port":51412,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"28","type":"vmess","server":"137.175.61.152","port":53940,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"29","type":"vmess","server":"en.foriran.live","port":443,"cipher":"auto","uuid":"8357816b-68e4-4a2b-830c-e9bdd369ea22","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"30","type":"vmess","server":"138.2.71.111","port":80,"cipher":"auto","uuid":"b2947942-701b-4de2-91cd-f6810d5d03bc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"31","type":"trojan","server":"scloudtw2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"32","type":"vmess","server":"206.168.191.67","port":80,"cipher":"auto","uuid":"7997b5a0-f2f9-11ed-b436-205c6d5f5d78","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/r2vt59x8","headers":{"host":"206.168.191.67"}}}
+  - {"name":"33","type":"vmess","server":"202.81.231.150","port":80,"cipher":"auto","uuid":"1d1c1d94-6987-4658-a4dc-8821a30fe7e0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"idnusanet.vpnexecutive.my.id"}}}
+  - {"name":"34","type":"vmess","server":"23.224.110.246","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"35","type":"vmess","server":"192.74.228.183","port":443,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"36","type":"vless","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","tls":true,"servername":"ashcan.aurorainiceland.com","network":"ws","ws-opts":{"path":"/nimws"}}
+  - {"name":"37","type":"ss","server":"67.230.169.221","port":18564,"password":"YjE4MGM5ZW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"38","type":"ss","server":"43.201.147.86","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"39","type":"trojan","server":"ap.stablize.top","port":443,"udp":true,"password":"7561d9a0-af44-405d-81ae-f056fbc03675","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"40","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"41","type":"ss","server":"40.113.153.173","port":45160,"password":"kQpaDJdFPnltYcbBYF4KtK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"42","type":"trojan","server":"bgptw3.cnamazon.sbs","port":443,"udp":true,"password":"a7d5f659-6ad2-4288-b63a-3d42bdf5b122","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"43","type":"vmess","server":"192.74.228.178","port":42857,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"44","type":"ss","server":"64.64.230.152","port":48726,"password":"894nfh6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"45","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"27af95ea-e457-4bc9-9e36-8042ae657f4e","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"46","type":"vmess","server":"107.148.242.216","port":54082,"cipher":"auto","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"47","type":"vmess","server":"156.251.135.14","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"48","type":"vmess","server":"microsoftdebug.com","port":8880,"cipher":"auto","uuid":"5b0fd824-3be5-4a5b-be38-600a601b6a60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gqfWkjL8.gif","headers":{"host":"v1.lsb1.microsoftdebug.com"}}}
+  - {"name":"49","type":"vmess","server":"104.21.53.35","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm1.yxjnode.com"}}}
+  - {"name":"50","type":"trojan","server":"3.112.220.151","port":31467,"udp":true,"password":"e8dacfc5-79b1-4289-92f1-e390080d56aa","sni":"sgp.piaole.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"51","type":"vmess","server":"23.224.110.246","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1684230882527","headers":{"host":"www.77039717.xyz"}}}
+  - {"name":"52","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
+  - {"name":"53","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"buyvm2.yxjnode.com"}}}
+  - {"name":"54","type":"vmess","server":"microsoftdebug.com","port":80,"cipher":"auto","uuid":"5b0fd824-3be5-4a5b-be38-600a601b6a60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/windows7.ios","headers":{"host":"v1.us1.microsoftdebug.com"}}}
+  - {"name":"55","type":"vmess","server":"140.83.63.38","port":24445,"cipher":"auto","uuid":"94c5ef37-4d82-49f9-c624-f01259374a17","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"56","type":"vmess","server":"jp02-vm0.entry.srthdw.art","port":446,"cipher":"auto","uuid":"22acc467-7440-386a-927a-d84be554b37e","alterId":1,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"57","type":"vmess","server":"45.12.144.80","port":47127,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"58","type":"vmess","server":"192.203.230.86","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
+  - {"name":"59","type":"vmess","server":"103.21.244.37","port":80,"cipher":"auto","uuid":"53ae65be-81ee-4766-8a09-da43c44c4d30","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"60","type":"vmess","server":"172.67.247.250","port":80,"cipher":"auto","uuid":"53ae65be-81ee-4766-8a09-da43c44c4d30","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"61","type":"vmess","server":"jp04-vm0.entry.srthdw.art","port":446,"cipher":"auto","uuid":"22acc467-7440-386a-927a-d84be554b37e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"62","type":"vmess","server":"cdn.chigua.tk","port":80,"cipher":"auto","uuid":"01925169-e2ff-483c-89f2-6e778dcdd450","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
+  - {"name":"63","type":"vmess","server":"www.gov.tw","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"64","type":"vmess","server":"de63.thugiping.cloud","port":443,"cipher":"auto","uuid":"c9a22360-3f66-48c8-89ab-13799b05a730","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"65","type":"vmess","server":"jp03-alt-vm0.entry.srthdw.art","port":21585,"cipher":"auto","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":1,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"66","type":"vmess","server":"185.16.61.119","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"185.16.61.119"}}}
+  - {"name":"67","type":"vmess","server":"104.25.5.175","port":80,"cipher":"auto","uuid":"53ae65be-81ee-4766-8a09-da43c44c4d30","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer11","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"68","type":"vmess","server":"104.20.127.237","port":443,"cipher":"auto","uuid":"e883ff76-3bb4-4008-c068-6b5b1d960ea7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer09","headers":{"host":"uyaa.vtcss.top"}}}
+  - {"name":"69","type":"vmess","server":"cu.wfitech.net","port":443,"cipher":"auto","uuid":"030ae75a-1a4a-45cc-88f1-f1b7d9fe15f3","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/KS4XxcnoWPTpuA9VAxnFIAPLD","headers":{"host":"cu.wfitech.net"}}}
+  - {"name":"70","type":"vmess","server":"en.foriran.live","port":443,"cipher":"auto","uuid":"8357816b-68e4-4a2b-830c-e9bdd369ea22","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7ouWwj1jH2IbuOfQj2chg","headers":{"host":"en.foriran.live"}}}
+  - {"name":"71","type":"vmess","server":"www.speedtest.net","port":2087,"cipher":"auto","uuid":"d61e2d0e-09a4-4b6a-9efe-c4cfebf2148c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"one.nikannetwork.xyz"}}}
+  - {"name":"72","type":"vmess","server":"172.67.134.123","port":443,"cipher":"auto","uuid":"8357816b-68e4-4a2b-830c-e9bdd369ea22","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/7ouWwj1jH2IbuOfQj2chg","headers":{"host":"en.foriran.live"}}}
+  - {"name":"73","type":"vmess","server":"45.85.119.105","port":443,"cipher":"auto","uuid":"45C7B3CD-E09D-4CA8-96DC-312D7B10B666","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.kotick.site"}}}
+  - {"name":"74","type":"vmess","server":"HKG.MIFJUN.ORG","port":80,"cipher":"auto","uuid":"c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"HKG.MIFJUN.ORG"}}}
+  - {"name":"75","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
+  - {"name":"76","type":"vmess","server":"cdncf.scyu.app","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
+  - {"name":"77","type":"trojan","server":"ap.stablize.top","port":443,"udp":true,"password":"9478e27c-6bdd-4f0e-ba46-90d9739e1e34","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"78","type":"vless","server":"first.baoshi750105.top","port":443,"uuid":"d65eb109-efe6-4941-b726-674fe55f22ae","tls":true,"servername":"first.baoshi750105.top","network":"ws","ws-opts":{"path":"/caoyu1932"}}
+  - {"name":"79","type":"vmess","server":"cdnjs.com","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"80","type":"vmess","server":"172.67.156.138","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"81","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"d1fca18b-00ce-4024-8cc8-4b49a4dd5e52","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
+  - {"name":"82","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ny1.sharecentrepro.org"}}}
+  - {"name":"83","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp4.yxjnode.com"}}}
+  - {"name":"84","type":"vmess","server":"zslbs.vtcss.top","port":80,"cipher":"auto","uuid":"c5c9844d-050e-44f1-cb6d-ec5166772631","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer"}}
+  - {"name":"85","type":"vmess","server":"103.21.244.71","port":443,"cipher":"auto","uuid":"39304f36-8a9c-4692-9b31-d2997532f567","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"zslbs.vtcss.top"}}}
+  - {"name":"86","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"in.sharecentrepro.com"}}}
+  - {"name":"87","type":"trojan","server":"16.163.101.79","port":443,"udp":true,"password":"4e975131-e8bf-4580-8762-59306ad666b6","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"88","type":"vmess","server":"138.2.71.111","port":80,"cipher":"auto","uuid":"b2947942-701b-4de2-91cd-f6810d5d03bc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"89","type":"vmess","server":"io3.aicdn.online","port":12028,"cipher":"auto","uuid":"cdc6f9d7-dea0-3eb0-baa3-4c57446aa7c5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/play.m3u8"}}
+  - {"name":"90","type":"vmess","server":"192.203.230.65","port":443,"cipher":"auto","uuid":"cf53bffc-d018-46a2-94ee-257e2d33326a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/kbjc/jp1","headers":{"host":"jp1.hnokkdf.top"}}}
+  - {"name":"91","type":"vmess","server":"t.cccao.cyou","port":16618,"cipher":"auto","uuid":"aef0215f-cef6-4655-be98-803c4dc727e5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"92","type":"ss","server":"proxy.node1.kk-proxy.pro","port":29972,"password":"d599c959-0a3f-4fff-b2a0-5e046b416814","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -553,74 +721,98 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_1
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_3
-      - 🇸🇬_SG_新加坡->🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 🇯🇵_JP_日本->🇦🇷_AR_阿根廷
-      - 🇰🇷_KR_韩国
-      - 🇭🇰_HK_香港->🇲🇾_MY_马来西亚
-      - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇯🇵_JP_日本->🇹🇷_TR_土耳其
-      - 🇺🇸_US_美国_5
-      - 🇭🇰_HK_香港->🇨🇭_CH_瑞士
-      - 美国 CloudFlare节点_1
-      - 美国 CloudFlare节点_2
-      - 美国 CloudFlare节点_3
-      - 中国 阿里云
-      - 美国 CloudFlare节点_4
-      - 加拿大 V2CROSS.COM
-      - 美国 RF Engineering
-      - 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 美国 CloudFlare节点_5
-      - 美国 CloudFlare节点_6
-      - 美国 CloudFlare节点_7
-      - 美国 CloudFlare节点_8
-      - 美国+Microsoft数据中心_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_1
-      - 日本+V2CROSS.COM_1
-      - 美国+加利福尼亚州洛杉矶Level3通信(DIA)_2
-      - 日本+V2CROSS.COM_2
-      - 美国+Microsoft数据中心_2
-      - 美国+Microsoft数据中心_3
-      - 🇭🇰_HK_香港->🇻🇳_VN_越南
-      - 🇺🇸_US_美国_6
-      - 美国 CloudFlare节点_9
-      - 日本 东京Amazon数据中心_1
-      - 🇺🇸_US_美国_7
-      - 美国 CloudFlare节点_10
-      - 美国 CloudFlare节点_11
-      - 香港高速|@ripaojiedian
-      - 香港HK|@ripaojiedian
-      - 香港1|@ripaojiedian
-      - 香港普通|@ripaojiedian
-      - 日本|tg频道:@ripaojiedian
-      - 新加坡|tg频道:@ripaojiedian
-      - 美国|tg频道:@ripaojiedian
-      - 香港M|tg频道:@ripaojiedian
-      - 🇸🇬_SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵_JP_日本->🇮🇱_IL_以色列
-      - 🇰🇷_KR_韩国->🇰🇭_KH_柬埔寨
-      - 🇯🇵_JP_日本->🇺🇦_UA_乌克兰
-      - 🇺🇸_US_美国_8
-      - 🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
-      - 美国 CloudFlare节点_12
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_1
-      - 美国加利福尼亚州圣何塞 Cloudflare节点_2
-      - 美国 CloudFlare节点_13
-      - 美国 CloudFlare节点_14
-      - 日本 东京Amazon数据中心_2
-      - 美国 CloudFlare节点_15
-      - 中国-8.10MB/s(Youtube:不良林)
-      - 美国-5.36MB/s(Youtube:不良林)
-      - 新加坡-8.16MB/s(Youtube:不良林)
-      - 香港-2.39MB/s(Youtube:不良林)
-      - 美国-323.1KB/s(Youtube:不良林)
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - '8'
+      - '9'
+      - '10'
+      - '11'
+      - '12'
+      - '13'
+      - '14'
+      - '15'
+      - '16'
+      - '17'
+      - '18'
+      - '19'
+      - '20'
+      - '21'
+      - '22'
+      - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '28'
+      - '29'
+      - '30'
+      - '31'
+      - '32'
+      - '33'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '38'
+      - '39'
+      - '40'
+      - '41'
+      - '42'
+      - '43'
+      - '44'
+      - '45'
+      - '46'
+      - '47'
+      - '48'
+      - '49'
+      - '50'
+      - '51'
+      - '52'
+      - '53'
+      - '54'
+      - '55'
+      - '56'
+      - '57'
+      - '58'
+      - '59'
+      - '60'
+      - '61'
+      - '62'
+      - '63'
+      - '64'
+      - '65'
+      - '66'
+      - '67'
+      - '68'
+      - '69'
+      - '70'
+      - '71'
+      - '72'
+      - '73'
+      - '74'
+      - '75'
+      - '76'
+      - '77'
+      - '78'
+      - '79'
+      - '80'
+      - '81'
+      - '82'
+      - '83'
+      - '84'
+      - '85'
+      - '86'
+      - '87'
+      - '88'
+      - '89'
+      - '90'
+      - '91'
+      - '92'
 
 rules:
 # 本地/局域网地址
