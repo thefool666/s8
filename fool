@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.fastgit.org/ripaojiedian//main/fool interval=86400 strict=false
+#!MANAGED-CONFIG https://raw.fastgit.org/thefool666/s8//main/fool interval=86400 strict=false
 port: 7890
 socks-port: 7891
 allow-lan: true
